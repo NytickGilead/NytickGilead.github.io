@@ -1,0 +1,189 @@
+header {
+  font-family: 'Montserrat', sans-serif;
+  background: url(../img/glass.png) no-repeat 90% 90% #eff0f2;
+  padding-top: 65px;
+  padding-bottom: 197px;
+  text-transform: uppercase; }
+  header h5 {
+    font-weight: bold;
+    border: 1px solid #7d7981;
+    outline: 6px solid #170f1c;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 65px;
+    display: inline-block; }
+    header h5 span {
+      font-size: 21px;
+      color: #77efe5;
+      padding: 0;
+      border: none; }
+  header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #505050;
+    text-shadow: 4px 6px 9px #969696;
+    margin-top: 203px; }
+    header h1 span {
+      background: #b2f2ee; }
+  header button {
+    display: block;
+    border: 2px solid #777879;
+    border-radius: 3px;
+    background: transparent;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 18px 46px;
+    margin-top: 150px; }
+    header button:hover {
+      background: #777879;
+      color: #eff0f2;
+      transition: all 0.3s; }
+
+.title {
+  font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #181919; }
+
+.title__desc {
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+  color: #5e5f5f;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-bottom: 117px; }
+
+.about {
+  padding-top: 130px;
+  background: #f8fafa;
+  padding-bottom: 157px; }
+  .about h3 {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px; }
+  .about p {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    color: #404141;
+    margin-bottom: 48px; }
+  .about .obj {
+    width: 478px;
+    height: 412px;
+    background: #eff0f2;
+    position: relative;
+    top: 55px; }
+  .about #myCarousel {
+    bottom: 34px; }
+    .about #myCarousel .item {
+      margin-top: 5px;
+      -webkit-box-shadow: 0px -3px 36px -8px rgba(0, 0, 0, 0.26);
+      -moz-box-shadow: 0px -3px 36px -8px rgba(0, 0, 0, 0.26);
+      box-shadow: 0px -3px 30px -8px rgba(0, 0, 0, 0.26); }
+    .about #myCarousel .carousel-indicators {
+      bottom: -61px; }
+      .about #myCarousel .carousel-indicators li {
+        border: none;
+        margin: 0;
+        background: #d0d0d0; }
+        .about #myCarousel .carousel-indicators li.active {
+          width: 10px;
+          height: 10px;
+          background: #71f6eb; }
+  .about .craft0, .about .craft1, .about .craft2, .about .craft3 {
+    height: 484px;
+    width: 394px;
+    background: url(../img/item_car.jpg);
+    margin-left: 42px; }
+  .about .craft0 {
+    background-position: 0px 0; }
+  .about .craft1 {
+    background-position: -131px 0; }
+  .about .craft2 {
+    background-position: -262px 0; }
+  .about .craft3 {
+    background-position: -393px 0; }
+
+.works {
+  background: #fff;
+  padding-bottom: 113px; }
+  .works img {
+    max-width: 370px;
+    height: 359px;
+    margin-bottom: 14px; }
+  .works:first-of-type {
+    width: 2px; }
+
+.services {
+  padding-top: 125px;
+  padding-bottom: 105px;
+  background: #f9fbfb; }
+  .services .services-item1, .services .services-item2, .services .services-item3, .services .services-item4, .services .services-item5, .services .services-item6, .services .koko {
+    min-height: 370px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding: 150px 97px 46px 68px; }
+    .services .services-item1 h3, .services .services-item2 h3, .services .services-item3 h3, .services .services-item4 h3, .services .services-item5 h3, .services .services-item6 h3, .services .koko h3 {
+      font-family: "Merriweather", serif;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 0;
+      text-transform: uppercase; }
+    .services .services-item1 p, .services .services-item2 p, .services .services-item3 p, .services .services-item4 p, .services .services-item5 p, .services .services-item6 p, .services .koko p {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 60px; }
+    .services .services-item1 button, .services .services-item2 button, .services .services-item3 button, .services .services-item4 button, .services .services-item5 button, .services .services-item6 button, .services .koko button {
+      position: absolute;
+      bottom: 57px;
+      text-transform: uppercase;
+      font-family: "Raleway", sans-serif;
+      font-weight: 400;
+      font-size: 18px;
+      color: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      background: transparent;
+      border: none; }
+      .services .services-item1 button:after, .services .services-item2 button:after, .services .services-item3 button:after, .services .services-item4 button:after, .services .services-item5 button:after, .services .services-item6 button:after, .services .koko button:after {
+        content: '';
+        background: url(../img/arrow.png) no-repeat;
+        display: inline-block;
+        width: 21px;
+        height: 14px;
+        margin-left: 20px; }
+      .services .services-item1 button:hover, .services .services-item2 button:hover, .services .services-item3 button:hover, .services .services-item4 button:hover, .services .services-item5 button:hover, .services .services-item6 button:hover, .services .koko button:hover {
+        text-decoration: none;
+        background: rgba(0, 0, 0, 0.6);
+        transition: all 0.6s; }
+  .services .services-item1 {
+    background: url("../img/services/1.jpg"); }
+  .services .services-item2 {
+    background: url("../img/services/2.jpg"); }
+  .services .services-item3 {
+    background: url("../img/services/3.jpg"); }
+  .services .services-item4 {
+    background: url("../img/services/4.jpg"); }
+  .services .services-item5 {
+    background: url("../img/services/5.jpg"); }
+  .services .services-item6 {
+    background: url("../img/services/6.jpg"); }
+  .services .koko {
+    display: none;
+    padding-top: 57px;
+    background: #70f6eb;
+    color: #000; }
+    .services .koko h3 {
+      margin-bottom: 45px; }
+    .services .koko button.times {
+      background: url(../img/times.png) no-repeat;
+      display: inline-block;
+      width: 20px;
+      height: 20px; }
+      .services .koko button.times:after {
+        display: none; }
+
+/*# sourceMappingURL=main.css.map */
