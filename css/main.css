@@ -38,6 +38,7 @@ header {
     header button:hover {
       background: #777879;
       color: #eff0f2;
+      -webkit-transition: all 0.3s;
       transition: all 0.3s; }
 
 .title {
@@ -54,6 +55,13 @@ header {
   margin-top: 16px;
   margin-bottom: 117px; }
 
+.obj {
+  width: 478px;
+  height: 412px;
+  background: #eff0f2;
+  position: relative;
+  top: 55px; }
+
 .about {
   padding-top: 130px;
   background: #f8fafa;
@@ -69,18 +77,11 @@ header {
     font-size: 16px;
     color: #404141;
     margin-bottom: 48px; }
-  .about .obj {
-    width: 478px;
-    height: 412px;
-    background: #eff0f2;
-    position: relative;
-    top: 55px; }
   .about #myCarousel {
     bottom: 34px; }
     .about #myCarousel .item {
       margin-top: 5px;
       -webkit-box-shadow: 0px -3px 36px -8px rgba(0, 0, 0, 0.26);
-      -moz-box-shadow: 0px -3px 36px -8px rgba(0, 0, 0, 0.26);
       box-shadow: 0px -3px 30px -8px rgba(0, 0, 0, 0.26); }
     .about #myCarousel .carousel-indicators {
       bottom: -61px; }
@@ -110,7 +111,7 @@ header {
   background: #fff;
   padding-bottom: 113px; }
   .works img {
-    max-width: 370px;
+    max-width: 359px;
     height: 359px;
     margin-bottom: 14px; }
   .works:first-of-type {
@@ -158,6 +159,7 @@ header {
       .services .services-item1 button:hover, .services .services-item2 button:hover, .services .services-item3 button:hover, .services .services-item4 button:hover, .services .services-item5 button:hover, .services .services-item6 button:hover, .services .koko button:hover {
         text-decoration: none;
         background: rgba(0, 0, 0, 0.6);
+        -webkit-transition: all 0.6s;
         transition: all 0.6s; }
   .services .services-item1 {
     background: url("../img/services/1.jpg"); }
@@ -185,5 +187,192 @@ header {
       height: 20px; }
       .services .koko button.times:after {
         display: none; }
+
+.team {
+  padding-bottom: 104px; }
+  .team img {
+    height: 441px;
+    width: 372px;
+    margin-bottom: 14px;
+    position: relative; }
+  .team__about {
+    -webkit-clip-path: polygon(0 7%, 6% 7%, 9% 0, 12% 7%, 100% 7%, 100% 7%, 100% 100%, 0 100%);
+    clip-path: polygon(0 7%, 6% 7%, 9% 0, 12% 7%, 100% 7%, 100% 7%, 100% 100%, 0 100%);
+    width: 335px;
+    margin: 0 auto;
+    background: #6ff6eb;
+    padding: 45px 55px 43px 39px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 166px;
+    right: 18px;
+    display: none; }
+    .team__about h3 {
+      margin-top: 0;
+      margin-bottom: 27px;
+      font-size: 20px;
+      font-family: "Merriweather", serif;
+      color: #2b3231;
+      text-transform: uppercase;
+      font-weight: bold; }
+      .team__about h3 span {
+        font-size: 15px;
+        color: #767776; }
+    .team__about p {
+      margin-bottom: 39px; }
+    .team__about ul {
+      padding: 0;
+      margin: 0; }
+      .team__about ul a {
+        color: #214946; }
+      .team__about ul li {
+        display: inline-block;
+        float: left;
+        font-size: 14px;
+        margin-right: 17px; }
+
+.feedbacks {
+  background: #f9fbfb;
+  padding-bottom: 77px; }
+  .feedbacks img {
+    margin-bottom: 38px; }
+  .feedbacks .obj {
+    width: 390px;
+    height: 362px;
+    background: #eff0f2;
+    position: relative;
+    position: absolute;
+    top: 25px; }
+  .feedbacks .text-slide {
+    background: #eaebed;
+    padding: 101px 0 24.75px 0;
+    margin-top: 25px; }
+    .feedbacks .text-slide h3 {
+      margin-top: 0;
+      margin-bottom: 34px;
+      font-size: 20px;
+      font-family: "Merriweather", serif;
+      color: #2b3231;
+      text-transform: uppercase;
+      font-weight: bold; }
+      .feedbacks .text-slide h3 span {
+        font-size: 15px;
+        color: #767776;
+        font-style: italic; }
+    .feedbacks .text-slide p {
+      font-family: "Raleway", sans-serif;
+      font-size: 16px;
+      margin-bottom: 33px; }
+      .feedbacks .text-slide p i {
+        color: #f2da3b; }
+  .feedbacks #secondCarousel {
+    margin-bottom: 323px; }
+    .feedbacks #secondCarousel .carousel-inner {
+      height: 420px; }
+    .feedbacks #secondCarousel .carousel-indicators {
+      bottom: -75px;
+      left: 205px; }
+      .feedbacks #secondCarousel .carousel-indicators li {
+        border: none;
+        margin: 0;
+        background: #d0d0d0; }
+        .feedbacks #secondCarousel .carousel-indicators li.active {
+          width: 10px;
+          height: 10px;
+          background: #71f6eb; }
+    .feedbacks #secondCarousel a {
+      float: right;
+      color: #878484;
+      background: #fff;
+      margin-right: 15px;
+      padding: 16px 18px;
+      opacity: 0.6;
+      -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2); }
+      .feedbacks #secondCarousel a span {
+        font-size: 18px; }
+      .feedbacks #secondCarousel a:hover {
+        opacity: 1;
+        background: #71f6eb; }
+  .feedbacks .persona {
+    -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.4);
+    min-height: 412px;
+    width: 319px;
+    position: absolute;
+    top: 5px;
+    left: 50px; }
+
+footer .reg {
+  background: url(../img/bg-footer.jpg);
+  padding: 117px 126px; }
+  footer .reg form, footer .reg address {
+    padding: 53px 30px 37px 32px;
+    background: #294b5f;
+    opacity: 0.9; }
+    footer .reg form input, footer .reg address input,
+    footer .reg form textarea,
+    footer .reg address textarea {
+      font-family: "Raleway", sans-serif;
+      font-size: 15px;
+      color: #fff;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #6e7981;
+      width: 90%;
+      padding: 19px 0;
+      resize: none; }
+    footer .reg form button, footer .reg address button {
+      background: #6eeee4;
+      border: none;
+      border-radius: 3px;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      font-size: 18px;
+      padding: 17px 40px 17px 36px;
+      margin-top: 39px; }
+      footer .reg form button:hover, footer .reg address button:hover {
+        background: #9defe9;
+        transition: all 0.3s; }
+  footer .reg address {
+    color: #c9cdd0;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    padding-top: 35px;
+    padding-bottom: 19px; }
+footer .footer {
+  background: #262b2e;
+  padding: 90px 0; }
+  footer .footer h5 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 18px; }
+  footer .footer ul {
+    margin: 0;
+    padding: 0; }
+    footer .footer ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin-right: 7px; }
+      footer .footer ul li a {
+        color: #bbb8b9;
+        font-size: 23px; }
+        footer .footer ul li a i {
+          padding: 10px 12px;
+          background: #424648;
+          width: 45px; }
+          footer .footer ul li a i:hover {
+            background: #6eeee4;
+            color: #070e0d;
+            transition: all 0.4s; }
+  footer .footer p {
+    margin-top: 36px;
+    font-family: "Raleway", sans-serif;
+    color: #7d8082; }
 
 /*# sourceMappingURL=main.css.map */
