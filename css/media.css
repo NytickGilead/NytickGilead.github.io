@@ -1,0 +1,386 @@
+@media (max-width: 360px) {
+  body {
+    overflow-x: hidden; }
+
+  h4.title__desc {
+    margin-bottom: 60px; }
+
+  header h5 {
+    margin-top: 60px; }
+  header a.menu-link {
+    top: 55px;
+    position: fixed;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
+  header .menu ul a {
+    padding-left: 15vh; }
+  header .menu_active {
+    right: 0; }
+  header h1 {
+    font-size: 30px;
+    margin-top: 40px; }
+    header h1 br {
+      display: none; }
+  header button {
+    margin-top: 20px;
+    font-size: 16px; }
+
+  section.about, section.works, section.services, section.team, section.feedbacks {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    section.about .obj, section.works .obj, section.services .obj, section.team .obj, section.feedbacks .obj {
+      display: none; }
+    section.about #myCarousel, section.works #myCarousel, section.services #myCarousel, section.team #myCarousel, section.feedbacks #myCarousel {
+      display: none; }
+    section.about h3, section.works h3, section.services h3, section.team h3, section.feedbacks h3 {
+      text-align: center; }
+
+  section.works img {
+    width: 290px;
+    height: 290px; }
+
+  section.services .services-item1, section.services .services-item2, section.services .services-item3, section.services .services-item4, section.services .services-item5, section.services .services-item6, section.services .koko {
+    padding: 30px 30px 30px 30px;
+    min-height: 310px; }
+  section.services .services-item1 {
+    background: url("../img/services/1.jpg"); }
+  section.services .services-item2 {
+    background: url("../img/services/2.jpg"); }
+  section.services .services-item3 {
+    background: url("../img/services/3.jpg"); }
+  section.services .services-item4 {
+    background: url("../img/services/4.jpg"); }
+  section.services .services-item5 {
+    background: url("../img/services/5.jpg"); }
+  section.services .services-item6 {
+    background: url("../img/services/6.jpg"); }
+
+  section.team img {
+    width: 300px;
+    height: 400px; }
+  section.team .team__about {
+    width: 295px; }
+    section.team .team__about h3 {
+      margin-bottom: 13px; }
+    section.team .team__about p {
+      margin-bottom: 22px; }
+
+  section.feedbacks #secondCarousel {
+    margin-bottom: 160px; }
+    section.feedbacks #secondCarousel .item .col-md-4 {
+      display: none; }
+    section.feedbacks #secondCarousel ol.carousel-indicators {
+      bottom: -50px;
+      left: 100px; }
+
+  footer .reg {
+    padding: 70px 0; }
+    footer .reg iframe {
+      width: 230px; } }
+@media (min-width: 361px) and (max-width: 480px) {
+  body {
+    overflow-x: hidden; }
+
+  h4.title__desc {
+    margin-bottom: 60px; }
+
+  header h5 {
+    margin-top: 60px; }
+  header a.menu-link {
+    top: 55px;
+    position: fixed;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
+  header .menu ul a {
+    padding-left: 30vw; }
+  header .menu_active {
+    right: 0; }
+  header h1 {
+    font-size: 30px;
+    margin-top: 40px; }
+    header h1 br {
+      display: none; }
+  header button {
+    margin-top: 20px;
+    font-size: 16px; }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .about .obj {
+      display: none; }
+    .about #myCarousel {
+      display: none; }
+    .about h3 {
+      text-align: center; }
+
+  .works {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .works img {
+      width: 330px;
+      height: 330px; }
+
+  .services {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .services .services-item1,
+    .services .services-item2,
+    .services .services-item3,
+    .services .services-item4,
+    .services .services-item5,
+    .services .services-item6,
+    .services .koko {
+      padding: 50px 30px 30px 30px;
+      min-height: 310px; }
+
+  .team {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .team img {
+      width: auto;
+      max-width: 350px;
+      display: block;
+      margin-right: auto;
+      margin-left: auto; }
+    .team .team__about {
+      width: 295px;
+      right: 80px; }
+      .team .team__about h3 {
+        margin-bottom: 13px; }
+      .team .team__about p {
+        margin-bottom: 22px; }
+
+  section.feedbacks {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    section.feedbacks #secondCarousel {
+      margin-bottom: 160px; }
+      section.feedbacks #secondCarousel .item .col-md-4 {
+        display: none; }
+      section.feedbacks #secondCarousel ol.carousel-indicators {
+        bottom: -50px;
+        left: 100px; }
+
+  footer .reg {
+    padding: 70px 0; }
+    footer .reg iframe {
+      width: 280px; } }
+@media (min-width: 481px) and (max-width: 600px) {
+  body {
+    overflow-x: hidden; }
+
+  h4.title__desc {
+    margin-bottom: 60px; }
+
+  header h5 {
+    margin-top: 60px; }
+  header a.menu-link {
+    top: 55px;
+    position: fixed;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
+  header .menu ul a {
+    padding-left: 8vw; }
+  header .menu_active {
+    right: -55vw; }
+  header h1 {
+    font-size: 30px;
+    margin-top: 40px; }
+    header h1 br {
+      display: none; }
+  header button {
+    margin-top: 20px;
+    font-size: 16px; }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .about h3 {
+      text-align: center; }
+      .about h3:first-child {
+        margin-top: 190px; }
+
+  .works {
+    padding-bottom: 30px; }
+
+  .services {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+
+  .team {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .team img {
+      width: auto;
+      display: block;
+      margin-right: auto;
+      margin-left: auto; }
+    .team .team__about {
+      width: 295px;
+      right: 80px; }
+      .team .team__about h3 {
+        margin-bottom: 13px; }
+      .team .team__about p {
+        margin-bottom: 22px; }
+
+  section.feedbacks {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    section.feedbacks #secondCarousel {
+      margin-bottom: 160px; }
+      section.feedbacks #secondCarousel .item .col-md-4 {
+        display: none; }
+      section.feedbacks #secondCarousel ol.carousel-indicators {
+        bottom: -50px;
+        left: 100px; }
+
+  footer .reg {
+    padding: 117px 0; }
+    footer .reg iframe {
+      width: 390px; } }
+@media (min-width: 601px) and (max-width: 768px) {
+  body {
+    overflow-x: hidden; }
+
+  h4.title__desc {
+    margin-bottom: 60px; }
+
+  header h5 {
+    margin-top: 60px; }
+  header a.menu-link {
+    top: 55px;
+    position: fixed;
+    -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); }
+  header .menu ul a {
+    padding-left: 8vw; }
+  header .menu_active {
+    right: -55vw; }
+  header h1 {
+    font-size: 30px;
+    margin-top: 40px; }
+    header h1 br {
+      display: none; }
+  header button {
+    margin-top: 20px;
+    font-size: 16px; }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .about .obj {
+      display: block;
+      margin: auto; }
+    .about h3 {
+      text-align: center; }
+      .about h3:first-child {
+        margin-top: 220px; }
+
+  .works {
+    padding-bottom: 30px; }
+
+  .services {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+
+  .team {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .team img {
+      width: auto;
+      display: block;
+      margin-right: auto;
+      margin-left: auto; }
+    .team .team__about {
+      width: 295px;
+      right: 150px; }
+      .team .team__about h3 {
+        margin-bottom: 13px; }
+      .team .team__about p {
+        margin-bottom: 22px; }
+
+  section.feedbacks {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    section.feedbacks #secondCarousel {
+      margin-bottom: 160px; }
+      section.feedbacks #secondCarousel .item .col-md-4 {
+        display: none; }
+      section.feedbacks #secondCarousel ol.carousel-indicators {
+        bottom: -50px;
+        left: 100px; }
+
+  footer .reg {
+    padding: 117px 30px; }
+    footer .reg button {
+      display: block;
+      margin: auto; }
+    footer .reg iframe {
+      width: 450px; } }
+@media (min-width: 769px) and (max-width: 969px) {
+  body {
+    overflow-x: hidden; }
+
+  header .menu ul a {
+    padding-left: 8vw; }
+  header .menu_active {
+    right: -55vw; }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .about .obj {
+      display: block;
+      margin: auto; }
+    .about h3 {
+      text-align: center; }
+      .about h3:first-child {
+        margin-top: 220px; }
+
+  .team {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    .team img {
+      width: auto;
+      display: block;
+      margin-right: auto;
+      margin-left: auto; }
+    .team .team__about {
+      width: 295px;
+      right: 150px; }
+      .team .team__about h3 {
+        margin-bottom: 13px; }
+      .team .team__about p {
+        margin-bottom: 22px; }
+
+  section.feedbacks {
+    padding-top: 40px;
+    padding-bottom: 30px; }
+    section.feedbacks #secondCarousel {
+      margin-bottom: 160px; }
+      section.feedbacks #secondCarousel .item .col-md-4 {
+        display: none; }
+      section.feedbacks #secondCarousel ol.carousel-indicators {
+        bottom: -50px;
+        left: 100px; }
+
+  footer .reg {
+    padding: 117px 10px; }
+    footer .reg button {
+      display: block;
+      margin: auto; }
+    footer .reg iframe {
+      width: 450px; } }
+@media (min-width: 970px) and (max-width: 1079px) {
+  .team img {
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; }
+
+  footer .reg button {
+    display: block;
+    margin: auto; } }
+
+/*# sourceMappingURL=media.css.map */

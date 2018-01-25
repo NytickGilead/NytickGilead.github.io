@@ -3,7 +3,6 @@ $ffRl: "Raleway", sans-serif;
 header{
 	font-family: 'Montserrat', sans-serif;
 	background:	url(../img/glass.png) no-repeat 90% 90% #eff0f2;
-	padding-top: 65px;
 	padding-bottom: 197px;
 	text-transform: uppercase;
 	h5{
@@ -13,7 +12,7 @@ header{
 		padding: 10px;
 		font-size: 17px;
 		text-align: center;
-		margin-top: 65px;
+		margin-top: 130px;
 		display: inline-block;
 		span{
 			font-size: 21px;
@@ -46,6 +45,104 @@ header{
 			color: #eff0f2;
 			-webkit-transition: all 0.3s;
 			transition: all 0.3s;
+		}
+	}
+	.menu{
+		opacity: .85;
+		background: #b2f2ee;
+		position: fixed;
+		width: 100vw;
+		height: 100vh;
+		z-index: 1;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+		right: -100vw;
+		-webkit-transition: all 0.5s;
+		-o-transition: all 0.5s;
+		transition: all 0.5s;
+		ul{
+			list-style: none;
+			padding: 0;
+			a{
+				color: #000;
+				display: block;
+				width: 100vw;
+				letter-spacing: 3px;
+				line-height: 4;
+				padding-left: 5vh;
+				-webkit-transition: all  0.2s;
+				-o-transition: all  0.2s;
+				transition: all  0.2s;
+				&:hover{
+					text-decoration: none;
+					background: rgba(255,255,255,0.3);
+				}
+			}
+		}
+		&_active{
+			right: -83vw;
+		}
+		&-link{
+			display: block;
+			width: 60px;
+			height: 60px;
+			background-color: transparent;
+			border-radius: 50%;
+			// -webkit-box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+			// box-shadow: 1px 1px 10px rgba(0,0,0,.4);
+			position: absolute;
+			top: 130px;
+			z-index: 9;
+			span{
+				display: block;
+				height: 4px;
+				width: 34px;
+				background: #706b73;
+				position: absolute;
+				left: 50%;
+				margin-left: -17px;
+				top: 50%;
+				margin-top: -1px;
+				&:before{
+					transition: all 0.2s;
+					position: absolute;
+					display: block;
+					height: 4px;
+					width: 34px;
+					background: #706b73;
+					content: '';
+					margin-top: -8px;
+				}
+				&:after{
+					@extend :before;
+					margin-top: 8px;
+				}
+			}
+			&_active{
+				span{
+					background: transparent;
+					&:before{
+						-webkit-transform: 135deg(angle);
+						-ms-transform: rotate(135deg);
+						-o-transform: rotate(135deg);
+						transform: rotate(135deg);
+						margin-top: 0;
+					}
+					&:after{
+						-webkit-transform: -135deg(angle);
+						-ms-transform: rotate(-135deg);
+						-o-transform: rotate(-135deg);
+						transform: rotate(-135deg);
+						margin-top: 0;
+					}
+				}
+			}
 		}
 	}
 }
@@ -355,6 +452,7 @@ header{
 footer {
 	.reg{
 		background: url(../img/bg-footer.jpg);
+		background-size: 100%;
 		padding: 117px 126px;
 		form{
 			padding: 53px 30px 37px 32px;
@@ -434,5 +532,56 @@ footer {
 			font-family: $ffRl;
 			color: #7d8082;
 		}
+	}
+}
+.modal{
+	h4{
+		text-transform: uppercase;
+		font-family: $ffRl;
+		font-size: 25px;
+	}
+	p{
+		font-size: 18px;
+	}
+	.modal-body{
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+				display: inline-block;
+				list-style-type: none;
+				margin-right: 7px;
+				a{
+					color: #fff;
+					font-size: 23px;
+					i{
+						padding: 10px 12px;
+						width: 45px;
+						border-radius: 50%;
+						background: #b2f2ee;
+						text-align: center;
+						&:hover{
+							&:hover{
+								background: #6eeee4;
+								color: #070e0d;
+								transition: all 0.4s;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	#email{
+		display: none;
+	}
+	#phone{
+		@extend #email;
+	}
+	#message{
+		@extend #email;
+	}
+	#address{
+		@extend #email;
 	}
 }
